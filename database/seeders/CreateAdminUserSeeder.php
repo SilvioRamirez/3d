@@ -22,11 +22,21 @@ class CreateAdminUserSeeder extends Seeder
         ]);
         
         $role = Role::create(['name' => 'Super Admin']);
-         
+
         /* $permissions = Permission::pluck('id','id')->all();
-       
+
         $role->syncPermissions($permissions);*/
-         
+
         $user->assignRole([$role->id]);
+
+        $user = User::create([
+            'name' => 'Josephs Abreu', 
+            'email' => 'tecnicaelectoraljpsuvtrujillo@gmail.com',
+            'password' => bcrypt('J26123388')
+        ]);
+
+        $user->assignRole([$role->id]);
+
+        $role = Role::create(['name' => 'Responsable de Centro']);
     }
 }

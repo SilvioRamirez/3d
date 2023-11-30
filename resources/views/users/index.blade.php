@@ -16,7 +16,7 @@
 </div>
 
     <div class="card border-light mb-3 shadow">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header bg-danger text-white">
             Administración de Usuarios
         </div>
         <div class="card-body">
@@ -25,7 +25,6 @@
     </div>
 </div>
 
-<p class="text-center text-primary"><small>By silvio.ramirez.m@gmail.com</small></p>
 
 <!-- Button trigger modal -->
 {{-- <button type="button" id="btnModal" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#defaultModal">

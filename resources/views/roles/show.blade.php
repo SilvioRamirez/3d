@@ -6,7 +6,7 @@
 
 <div class="col-lg-12 margin-tb">
     <div class="card border-light mb-3 shadow">
-        <div class="card-header bg-primary text-white"><i class="fa fa-user-check"></i> 
+        <div class="card-header bg-danger text-white"><i class="fa fa-user-check"></i> 
             {{ __('Show Role')}}
         </div>
         <div class="card-body">

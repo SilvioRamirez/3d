@@ -21,5 +21,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(PermissionTableSeeder::class);
         $this->call(CreateAdminUserSeeder::class);
+        //$this->call(VotantesTableSeeder::class);
+        $this->call(VotantesTestTableSeeder::class);
+        $this->call(MunicipioSeeder::class);
     }
 }

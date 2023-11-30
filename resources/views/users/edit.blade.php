@@ -7,7 +7,7 @@
 <div class="col-lg-12 margin-tb">
     @include('fragment.error')
     <div class="card border-light mb-3 shadow">
-        <div class="card-header bg-primary text-white"><i class="fa fa-user-edit"></i> 
+        <div class="card-header bg-danger text-white"><i class="fa fa-user-edit"></i> 
             {{ __('Edit User')}}
         </div>
         <div class="card-body">
@@ -18,6 +18,5 @@
     </div>
 </div>
 
-<p class="text-center text-primary"><small>By silvio.ramirez.m@gmail.com</small></p>
 
 @endsection

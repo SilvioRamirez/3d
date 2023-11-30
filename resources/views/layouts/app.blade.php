@@ -19,21 +19,26 @@
 <body>
     
     <div id="app">
+        <div class="d-flex" id="wrapper">
         
-        @include('layouts.nav')
+            <div id="page-content-wrapper" class="col-md-12 col-lg-12 col-xs-12">
 
-        <main class="py-4 mb-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-12">                            
+                @include('layouts.nav')
+
+                <main class="container-fluid">
+                    <div class="pt-4">
                         @yield('content')                        
-                    </div>
-                </div>
-            </div>
-        </main>
 
-        @include('layouts.footer')
-        @stack('scripts')
+                    </div>
+                </main>
+
+                {{-- @include('layouts.footer') --}}
+            </div>
+
+            
+    
+            @stack('scripts')
+        </div>
     </div>
 <script>
 

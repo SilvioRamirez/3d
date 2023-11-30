@@ -6,7 +6,7 @@
 
 <div class="col-lg-12 margin-tb">
     <div class="card border-light mb-3 shadow">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header bg-danger text-white">
             <i class="fa fa-trash-alt"></i>
                     {{ __('Eliminar Usuario') }}
         </div>

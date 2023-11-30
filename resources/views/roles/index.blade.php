@@ -21,7 +21,7 @@
     </div>
 
     <div class="card border-light mb-3 shadow">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header bg-danger text-white">
             Administración de Roles
         </div>
         <div class="card-body">
@@ -29,7 +29,6 @@
         </div>
     </div>
 </div>
-<p class="text-center text-primary"><small>By silvio.ramirez.m@gmail.com</small></p>
 
 @endsection
 
